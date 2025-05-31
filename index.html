@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mobile Filter</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <h1>Mobile Model Filter</h1>
+    
+    <select id="brand">
+        <option value="">Select Brand</option>
+    </select>
+    
+    <select id="model" disabled>
+        <option value="">Select Model</option>
+    </select>
+    
+    <button id="search" disabled>Search</button>
+    
+    <div id="results"></div>
+
     <script src="app.js"></script>
 </body>
 </html>
